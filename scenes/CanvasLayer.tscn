@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://b148bmsdf0lou"]
+
+[ext_resource type="Script" uid="uid://dwfwgxbibo7c" path="res://scenes/button.gd" id="1_5p55f"]
+[ext_resource type="Texture2D" uid="uid://c40fdmu86hdfd" path="res://assets/bb_2pix.png" id="2_r67kn"]
+
+[node name="Control" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 59.0
+offset_right = 117.0
+offset_bottom = 90.0
+text = "PLAY"
+script = ExtResource("1_5p55f")
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/Button"]
+texture = ExtResource("2_r67kn")
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]

@@ -1,17 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://2bfr23wynw2p"]
+[gd_scene load_steps=4 format=3 uid="uid://2bfr23wynw2p"]
 
-[ext_resource type="Texture2D" uid="uid://7fxe26numa1s" path="res://assets/seagull.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://bi8dc6xpcoxb5" path="res://scenes/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://gmamd3oubal6" path="res://assets/Seagull_Tile_1.png" id="2_g2els"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
-radius = 84.006
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
 
 [node name="Waiter" type="CharacterBody2D"]
+script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-3, 14)
-scale = Vector2(0.147792, 0.171565)
-texture = ExtResource("1_3vyb7")
+texture = ExtResource("2_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-3, 14)
-shape = SubResource("CircleShape2D_g2els")
+shape = SubResource("RectangleShape2D_qhqgy")
