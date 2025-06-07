@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://2bfr23wynw2p"]
+
+[ext_resource type="Texture2D" uid="uid://7fxe26numa1s" path="res://assets/seagull.png" id="1_3vyb7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
+radius = 84.006
+
+[node name="Waiter" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3, 14)
+scale = Vector2(0.147792, 0.171565)
+texture = ExtResource("1_3vyb7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3, 14)
+shape = SubResource("CircleShape2D_g2els")
