@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="06/25 GDC Game Jam"
 run/main_scene="uid://c6468w3d333kg"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
