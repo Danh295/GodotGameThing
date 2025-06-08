@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://6ei5g8uw316j"]
+
+[ext_resource type="PackedScene" uid="uid://bhbsl80b04ple" path="res://scenes/ItemSlot.tscn" id="1_81lrr"]
+
+[node name="InventoryMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_right = 200.0
+offset_bottom = 40.0
+columns = 5
+
+[node name="ItemSlot" parent="GridContainer" instance=ExtResource("1_81lrr")]
+layout_mode = 2
+
+[node name="ItemSlot2" parent="GridContainer" instance=ExtResource("1_81lrr")]
+layout_mode = 2
+
+[node name="ItemSlot3" parent="GridContainer" instance=ExtResource("1_81lrr")]
+layout_mode = 2
+
+[node name="ItemSlot4" parent="GridContainer" instance=ExtResource("1_81lrr")]
+layout_mode = 2
+
+[node name="ItemSlot5" parent="GridContainer" instance=ExtResource("1_81lrr")]
+layout_mode = 2

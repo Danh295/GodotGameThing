@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhbsl80b04ple"]
+
+[ext_resource type="Script" uid="uid://bp86kapq2goq7" path="res://scenes/item_slot.gd" id="1_v13n8"]
+[ext_resource type="Texture2D" uid="uid://ck11xwj5xqeg0" path="res://assets/ItemSlotBg.png" id="2_6xio5"]
+
+[node name="ItemSlot" type="TextureButton"]
+custom_minimum_size = Vector2(40, 40)
+script = ExtResource("1_v13n8")
+
+[node name="Bg" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_6xio5")
+
+[node name="Icon" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
