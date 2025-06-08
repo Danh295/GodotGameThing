@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://muk0s8nlvqtl"]
+
+[ext_resource type="PackedScene" uid="uid://bkna0n80tubuq" path="res://scenes/fruit.tscn" id="1_hilkf"]
+[ext_resource type="Script" uid="uid://ci4dvsb8cwwoa" path="res://scenes/banana.gd" id="2_36b2i"]
+[ext_resource type="Texture2D" uid="uid://btqswyx7utxg6" path="res://assets/banaba.png" id="2_a45fu"]
+
+[node name="Banana" instance=ExtResource("1_hilkf")]
+script = ExtResource("2_36b2i")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_a45fu")
