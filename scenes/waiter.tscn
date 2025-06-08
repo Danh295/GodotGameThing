@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://2bfr23wynw2p"]
 
-[ext_resource type="Script" uid="uid://bi8dc6xpcoxb5" path="res://scenes/player.gd" id="1_g2els"]
+[ext_resource type="Script" uid="uid://bi8dc6xpcoxb5" path="res://scenes/waiter.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://gmamd3oubal6" path="res://assets/Seagull_Tile_1.png" id="2_g2els"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
