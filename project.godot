@@ -15,6 +15,12 @@ run/main_scene="uid://c6468w3d333kg"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_height=640
+window/size/initial_position_type=0
+window/size/resizable=false
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
