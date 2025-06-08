@@ -1,10 +1,12 @@
-[gd_scene load_steps=12 format=4 uid="uid://c6468w3d333kg"]
+[gd_scene load_steps=14 format=4 uid="uid://c6468w3d333kg"]
 
 [ext_resource type="PackedScene" uid="uid://2bfr23wynw2p" path="res://scenes/waiter.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://jyldb0ssvvwy" path="res://assets/Sand_Tile_1.png" id="2_u5sy4"]
 [ext_resource type="Texture2D" uid="uid://damh8ra1xakn6" path="res://assets/Sand_Tile.png" id="2_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://m5dtteyjmwpf" path="res://assets/Sand_Tile_2.png" id="4_iywne"]
 [ext_resource type="PackedScene" uid="uid://b148bmsdf0lou" path="res://scenes/CanvasLayer.tscn" id="6_p57ef"]
+[ext_resource type="PackedScene" uid="uid://jkr5xh4ilifx" path="res://scenes/blueberry.tscn" id="6_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://muk0s8nlvqtl" path="res://scenes/banana.tscn" id="7_u5sy4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0tnpc"]
 texture = ExtResource("2_u5sy4")
@@ -57,3 +59,9 @@ tile_set = SubResource("TileSet_p57ef")
 [node name="Waiter" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(-544, -32)
 scale = Vector2(2, 2)
+
+[node name="Blueberry" parent="." instance=ExtResource("6_u5sy4")]
+position = Vector2(-128, -32)
+
+[node name="Banana" parent="." instance=ExtResource("7_u5sy4")]
+position = Vector2(-32, 96)
