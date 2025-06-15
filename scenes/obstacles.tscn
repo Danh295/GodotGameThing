@@ -1,10 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfrwn265t264d"]
+[gd_scene load_steps=4 format=3 uid="uid://cfrwn265t264d"]
 
 [ext_resource type="Script" uid="uid://bxvucencludqt" path="res://scenes/obstacles.gd" id="1_7soh5"]
+[ext_resource type="Texture2D" uid="uid://d31w3q0pbf1tt" path="res://assets/obstacles.png" id="2_b1ion"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b1ion"]
 
 [node name="Obstacles" type="StaticBody2D"]
 script = ExtResource("1_7soh5")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_b1ion")
+region_enabled = true
+region_rect = Rect2(-3, 0, 32, 32)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_b1ion")
