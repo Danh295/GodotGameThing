@@ -57,11 +57,11 @@ tile_map_data = PackedByteArray("AAD2//v/AAAAAAAAAAD2//z/AAAAAAAAAAD2//3/AAAAAAA
 tile_set = SubResource("TileSet_p57ef")
 
 [node name="Waiter" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(-544, -32)
+position = Vector2(-543, -32)
 scale = Vector2(2, 2)
 
 [node name="Blueberry" parent="." instance=ExtResource("6_u5sy4")]
-position = Vector2(-128, -32)
+position = Vector2(49, -208)
 
 [node name="Banana" parent="." instance=ExtResource("7_u5sy4")]
 position = Vector2(-32, 96)
